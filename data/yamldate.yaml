@@ -1,0 +1,55 @@
+# 轻量级的数据序列化格式
+# 对复杂的数据执行很好，比如对象
+# .yaml/ .yml
+#注释
+#数据类型： int str bool  空值 列表 键值对
+#键值对：对象 列表 嵌套结构
+#其中yaml 支持原生的json 数据类型
+#注意int和str的数字类型是不一样的
+#pyyaml 可以直接把yaml数据类型转换为python可识别的数据类型
+
+#数组
+[1,2,3]
+# - 1
+# - 2
+# - 3
+
+# - 
+#   1
+# - 
+#   2
+# - 
+#   3
+
+# [1,2,"3"]
+
+# - 1
+# - 2
+# - "3"
+# - 哈哈哈
+# - false
+# - True
+# - null
+# - [1,2,3]
+
+#字典  键值对
+
+{"code":8,"msg":"ok"}
+
+code: 0
+msg: "ok"
+date: 
+  - 1
+  - 2
+  - 3
+
+
+# 使用 PYTHONPATH 环境变量
+# 在运行测试前，临时添加项目根目录到环境变量：
+
+# bash
+# # Linux/MacOS
+# export PYTHONPATH=$PYTHONPATH:/Users/admin/Documents/pythonproject/pythonjichu4
+
+# # Windows
+# set PYTHONPATH=%PYTHONPATH%;C:\Users\admin\Documents\pythonproject\pythonjichu4
