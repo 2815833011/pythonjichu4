@@ -1,16 +1,16 @@
-import time
+
 import pytest
-from selenium import webdriver
-from selenium.webdriver import ChromeService
-from selenium.webdriver import ChromeOptions
+
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
+
 from src.util.yamlload import YamlLoad
 from src.util.pyselenium import Pyselenium
+from src.util.config import Conf
 class TestLogin:
-    
+    __conf=Conf()
     def setup_class(self):
         self.pyselenium=Pyselenium()
+        
 
     def setup_method(self):
         self.pyselenium.get("http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html")
@@ -19,7 +19,7 @@ class TestLogin:
         self.pyselenium.delete_all_cookies()
         self.pyselenium.refresh()
 
-    @pytest.mark.parametrize('date',YamlLoad().fileload()["logindata"])
+    @pytest.mark.parametrize('date',__conf.get_test_data("testlogindata","logindata"))
     def test_login(self,date):
 
         self.pyselenium.send_keys((By.NAME,"accounts"),date[1])

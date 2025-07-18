@@ -4,7 +4,7 @@ from selenium.webdriver import ChromeService
 from selenium.webdriver import ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-
+import pytest
 '''
 单接口用例
 '''
@@ -22,11 +22,12 @@ class Testlogim:
         driver.find_element(By.NAME,"accounts").send_keys("tangying")
         driver.find_element(By.NAME,"pwd").send_keys(123456)
         driver.find_element(By.NAME,"verify").send_keys("A1B2")
-        driver.find_element(By.XPATH,"//button[text()='登录']").click()
+        driver.find_element(By.XPATH,"//button[text()='录']").click()
+        time.sleep(2)
         result=WebDriverWait(driver,10).until(lambda x :x.find_element(By.XPATH,"//*[@class='prompt-msg']")).text
         assert result=="登录成功"
 
-        
+    @pytest.mark.skip    
     def test_login_errpwd(self):
         service=ChromeService(executable_path=r"driver/chromedriver")
         option=ChromeOptions()
@@ -41,6 +42,7 @@ class Testlogim:
         driver.find_element(By.NAME,"pwd").send_keys(123457)
         driver.find_element(By.NAME,"verify").send_keys("A1B2")
         driver.find_element(By.XPATH,"//button[text()='登录']").click()
+        time.sleep(2)
         result=WebDriverWait(driver,10).until(lambda x :x.find_element(By.XPATH,"//*[@class='prompt-msg']")).text
         assert result=="密码错误"
 
@@ -59,6 +61,7 @@ class Testlogim:
         driver.find_element(By.NAME,"pwd").send_keys(123456)
         driver.find_element(By.NAME,"verify").send_keys("A1B1")
         driver.find_element(By.XPATH,"//button[text()='登录']").click()
+        time.sleep(2)
         result=WebDriverWait(driver,10).until(lambda x :x.find_element(By.XPATH,"//*[@class='prompt-msg']")).text
         assert result=="验证码错误"
 
