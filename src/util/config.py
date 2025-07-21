@@ -17,3 +17,7 @@ class Conf:
     def get_test_data(self,data_path,data_name):
         datapath=self.yaml.fileload(self.conf)["testdata"][data_path]
         return self.yaml.fileload(datapath)[data_name]
+    
+    def get_mailconf(self):
+        mailconf=self.yaml.fileload(self.conf)["mail"]
+        return mailconf

@@ -2700,3 +2700,1172 @@ UnboundLocalError: cannot access local variable 'retevl' where it is not associa
 2025-07-18 19:20:44.979 | WARNING  | src.util.logger:<module>:26 - 警告
 2025-07-18 19:20:44.979 | SUCCESS  | src.util.logger:<module>:27 - 成功
 2025-07-18 19:20:44.979 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-21 18:42:28.395 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-21 18:42:28.396 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-21 18:42:28.396 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-21 18:42:28.396 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-21 18:42:28.396 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-21 18:42:31.476 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:42:31.476 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:42:34.540 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:42:34.540 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:42:34.561 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:42:34.561 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:42:34.582 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:42:34.582 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:42:34.606 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="ce6e9420ea03091a3974c4f6ca185c92", element="f.E164AF8D4070BB0C39D01705EC54C739.d.24F8C5C4065C5E6C3960844708C1573B.e.20")>
+2025-07-21 18:42:34.606 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="ce6e9420ea03091a3974c4f6ca185c92", element="f.E164AF8D4070BB0C39D01705EC54C739.d.24F8C5C4065C5E6C3960844708C1573B.e.20")>
+2025-07-21 18:42:34.901 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:42:34.901 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:42:34.901 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), 123456)
+2025-07-21 18:42:34.901 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), 123456)
+2025-07-21 18:42:34.902 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:42:34.902 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:42:34.911 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="ce6e9420ea03091a3974c4f6ca185c92", element="f.E164AF8D4070BB0C39D01705EC54C739.d.24F8C5C4065C5E6C3960844708C1573B.e.21")>
+2025-07-21 18:42:34.911 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="ce6e9420ea03091a3974c4f6ca185c92", element="f.E164AF8D4070BB0C39D01705EC54C739.d.24F8C5C4065C5E6C3960844708C1573B.e.21")>
+2025-07-21 18:42:34.972 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:42:34.972 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:42:34.972 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:42:34.972 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:42:34.973 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:42:34.973 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:42:34.985 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="ce6e9420ea03091a3974c4f6ca185c92", element="f.E164AF8D4070BB0C39D01705EC54C739.d.24F8C5C4065C5E6C3960844708C1573B.e.22")>
+2025-07-21 18:42:34.985 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="ce6e9420ea03091a3974c4f6ca185c92", element="f.E164AF8D4070BB0C39D01705EC54C739.d.24F8C5C4065C5E6C3960844708C1573B.e.22")>
+2025-07-21 18:42:35.046 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:42:35.046 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:42:35.047 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:42:35.047 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:42:35.047 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:42:35.047 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:42:35.072 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="ce6e9420ea03091a3974c4f6ca185c92", element="f.E164AF8D4070BB0C39D01705EC54C739.d.24F8C5C4065C5E6C3960844708C1573B.e.41")>
+2025-07-21 18:42:35.072 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="ce6e9420ea03091a3974c4f6ca185c92", element="f.E164AF8D4070BB0C39D01705EC54C739.d.24F8C5C4065C5E6C3960844708C1573B.e.41")>
+2025-07-21 18:42:35.174 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:42:35.174 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:42:35.175 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:42:35.175 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:42:36.224 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="ce6e9420ea03091a3974c4f6ca185c92", element="f.E164AF8D4070BB0C39D01705EC54C739.d.24F8C5C4065C5E6C3960844708C1573B.e.53")>
+2025-07-21 18:42:36.224 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="ce6e9420ea03091a3974c4f6ca185c92", element="f.E164AF8D4070BB0C39D01705EC54C739.d.24F8C5C4065C5E6C3960844708C1573B.e.53")>
+2025-07-21 18:43:04.357 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-21 18:43:04.358 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-21 18:43:04.358 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-21 18:43:04.358 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-21 18:43:04.358 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-21 18:43:06.411 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:43:06.411 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:43:08.736 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:43:08.736 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:43:08.781 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:43:08.781 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:43:08.801 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:43:08.801 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:43:08.817 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="e68c8512f49257d9be3e02e72b0dd155", element="f.54333E191D37B6883D6B63730A84AB0E.d.A7CCAF5316821E69402EE760C22EC6EF.e.18")>
+2025-07-21 18:43:08.817 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="e68c8512f49257d9be3e02e72b0dd155", element="f.54333E191D37B6883D6B63730A84AB0E.d.A7CCAF5316821E69402EE760C22EC6EF.e.18")>
+2025-07-21 18:43:09.032 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:43:09.032 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:43:09.032 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), 123456)
+2025-07-21 18:43:09.032 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), 123456)
+2025-07-21 18:43:09.032 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:43:09.032 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:43:09.041 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="e68c8512f49257d9be3e02e72b0dd155", element="f.54333E191D37B6883D6B63730A84AB0E.d.A7CCAF5316821E69402EE760C22EC6EF.e.19")>
+2025-07-21 18:43:09.041 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="e68c8512f49257d9be3e02e72b0dd155", element="f.54333E191D37B6883D6B63730A84AB0E.d.A7CCAF5316821E69402EE760C22EC6EF.e.19")>
+2025-07-21 18:43:09.094 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:43:09.094 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:43:09.094 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:43:09.094 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:43:09.094 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:43:09.094 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:43:09.108 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="e68c8512f49257d9be3e02e72b0dd155", element="f.54333E191D37B6883D6B63730A84AB0E.d.A7CCAF5316821E69402EE760C22EC6EF.e.20")>
+2025-07-21 18:43:09.108 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="e68c8512f49257d9be3e02e72b0dd155", element="f.54333E191D37B6883D6B63730A84AB0E.d.A7CCAF5316821E69402EE760C22EC6EF.e.20")>
+2025-07-21 18:43:09.179 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:43:09.179 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:43:09.179 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:43:09.179 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:43:09.180 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:43:09.180 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:43:09.205 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="e68c8512f49257d9be3e02e72b0dd155", element="f.54333E191D37B6883D6B63730A84AB0E.d.A7CCAF5316821E69402EE760C22EC6EF.e.39")>
+2025-07-21 18:43:09.205 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="e68c8512f49257d9be3e02e72b0dd155", element="f.54333E191D37B6883D6B63730A84AB0E.d.A7CCAF5316821E69402EE760C22EC6EF.e.39")>
+2025-07-21 18:43:09.318 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:43:09.318 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:43:09.318 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:43:09.318 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:43:10.868 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="e68c8512f49257d9be3e02e72b0dd155", element="f.54333E191D37B6883D6B63730A84AB0E.d.A7CCAF5316821E69402EE760C22EC6EF.e.51")>
+2025-07-21 18:43:10.868 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="e68c8512f49257d9be3e02e72b0dd155", element="f.54333E191D37B6883D6B63730A84AB0E.d.A7CCAF5316821E69402EE760C22EC6EF.e.51")>
+2025-07-21 18:44:04.020 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-21 18:44:04.021 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-21 18:44:04.021 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-21 18:44:04.021 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-21 18:44:04.021 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-21 18:44:05.632 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:44:05.632 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:44:08.284 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:44:08.284 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:44:08.284 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:44:08.284 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:44:08.321 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:44:08.321 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:44:08.356 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="decd02cf21b65444c62a1d89ea1cac9b", element="f.6BD0E99569209E843DB8639D247B7F8D.d.2284851AAF1C5F5DE4B05F782326EF91.e.18")>
+2025-07-21 18:44:08.356 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="decd02cf21b65444c62a1d89ea1cac9b", element="f.6BD0E99569209E843DB8639D247B7F8D.d.2284851AAF1C5F5DE4B05F782326EF91.e.18")>
+2025-07-21 18:44:08.544 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:44:08.544 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:44:08.544 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), 123456)
+2025-07-21 18:44:08.544 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), 123456)
+2025-07-21 18:44:08.544 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:44:08.544 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:44:08.553 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="decd02cf21b65444c62a1d89ea1cac9b", element="f.6BD0E99569209E843DB8639D247B7F8D.d.2284851AAF1C5F5DE4B05F782326EF91.e.19")>
+2025-07-21 18:44:08.553 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="decd02cf21b65444c62a1d89ea1cac9b", element="f.6BD0E99569209E843DB8639D247B7F8D.d.2284851AAF1C5F5DE4B05F782326EF91.e.19")>
+2025-07-21 18:44:08.601 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:44:08.601 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:44:08.601 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:44:08.601 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:44:08.601 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:44:08.601 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:44:08.611 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="decd02cf21b65444c62a1d89ea1cac9b", element="f.6BD0E99569209E843DB8639D247B7F8D.d.2284851AAF1C5F5DE4B05F782326EF91.e.20")>
+2025-07-21 18:44:08.611 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="decd02cf21b65444c62a1d89ea1cac9b", element="f.6BD0E99569209E843DB8639D247B7F8D.d.2284851AAF1C5F5DE4B05F782326EF91.e.20")>
+2025-07-21 18:44:08.659 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:44:08.659 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:44:08.659 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:44:08.659 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:44:08.659 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:44:08.659 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:44:08.674 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="decd02cf21b65444c62a1d89ea1cac9b", element="f.6BD0E99569209E843DB8639D247B7F8D.d.2284851AAF1C5F5DE4B05F782326EF91.e.39")>
+2025-07-21 18:44:08.674 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="decd02cf21b65444c62a1d89ea1cac9b", element="f.6BD0E99569209E843DB8639D247B7F8D.d.2284851AAF1C5F5DE4B05F782326EF91.e.39")>
+2025-07-21 18:44:08.728 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:44:08.728 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:44:08.729 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:44:08.729 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:44:09.784 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="decd02cf21b65444c62a1d89ea1cac9b", element="f.6BD0E99569209E843DB8639D247B7F8D.d.2284851AAF1C5F5DE4B05F782326EF91.e.51")>
+2025-07-21 18:44:09.784 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="decd02cf21b65444c62a1d89ea1cac9b", element="f.6BD0E99569209E843DB8639D247B7F8D.d.2284851AAF1C5F5DE4B05F782326EF91.e.51")>
+2025-07-21 18:45:13.338 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-21 18:45:13.338 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-21 18:45:13.338 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-21 18:45:13.339 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-21 18:45:13.339 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-21 18:45:14.950 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:45:14.950 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:45:17.541 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:45:17.541 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:45:17.542 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:45:17.542 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:45:17.542 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:45:17.542 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:45:17.577 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="8d6c1b19883087188e6a758d3040032a", element="f.66E8BE15CC5DA4DCF5C8620B67F0257D.d.D7B4F694B726C68E1EB63E7A128BF3AC.e.18")>
+2025-07-21 18:45:17.577 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="8d6c1b19883087188e6a758d3040032a", element="f.66E8BE15CC5DA4DCF5C8620B67F0257D.d.D7B4F694B726C68E1EB63E7A128BF3AC.e.18")>
+2025-07-21 18:45:17.728 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:45:17.728 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:45:17.728 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), 123456)
+2025-07-21 18:45:17.728 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), 123456)
+2025-07-21 18:45:17.728 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:45:17.728 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:45:17.737 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="8d6c1b19883087188e6a758d3040032a", element="f.66E8BE15CC5DA4DCF5C8620B67F0257D.d.D7B4F694B726C68E1EB63E7A128BF3AC.e.19")>
+2025-07-21 18:45:17.737 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="8d6c1b19883087188e6a758d3040032a", element="f.66E8BE15CC5DA4DCF5C8620B67F0257D.d.D7B4F694B726C68E1EB63E7A128BF3AC.e.19")>
+2025-07-21 18:45:17.775 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:45:17.775 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:45:17.776 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:45:17.776 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:45:17.776 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:45:17.776 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:45:17.783 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="8d6c1b19883087188e6a758d3040032a", element="f.66E8BE15CC5DA4DCF5C8620B67F0257D.d.D7B4F694B726C68E1EB63E7A128BF3AC.e.20")>
+2025-07-21 18:45:17.783 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="8d6c1b19883087188e6a758d3040032a", element="f.66E8BE15CC5DA4DCF5C8620B67F0257D.d.D7B4F694B726C68E1EB63E7A128BF3AC.e.20")>
+2025-07-21 18:45:17.818 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:45:17.818 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:45:17.818 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:45:17.818 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:45:17.818 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:45:17.818 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:45:17.828 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="8d6c1b19883087188e6a758d3040032a", element="f.66E8BE15CC5DA4DCF5C8620B67F0257D.d.D7B4F694B726C68E1EB63E7A128BF3AC.e.39")>
+2025-07-21 18:45:17.828 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="8d6c1b19883087188e6a758d3040032a", element="f.66E8BE15CC5DA4DCF5C8620B67F0257D.d.D7B4F694B726C68E1EB63E7A128BF3AC.e.39")>
+2025-07-21 18:45:17.878 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:45:17.878 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:45:19.884 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:45:19.884 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:45:19.902 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="8d6c1b19883087188e6a758d3040032a", element="f.66E8BE15CC5DA4DCF5C8620B67F0257D.d.D7B4F694B726C68E1EB63E7A128BF3AC.e.50")>
+2025-07-21 18:45:19.902 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="8d6c1b19883087188e6a758d3040032a", element="f.66E8BE15CC5DA4DCF5C8620B67F0257D.d.D7B4F694B726C68E1EB63E7A128BF3AC.e.50")>
+2025-07-21 18:46:38.567 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-21 18:46:38.568 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-21 18:46:38.568 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-21 18:46:38.568 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-21 18:46:38.568 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-21 18:46:41.247 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:46:41.247 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:46:44.434 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:46:44.434 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:46:44.434 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:46:44.434 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:46:44.456 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:46:44.456 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:46:44.477 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="abcac261e75cdb836b621e667113268a", element="f.FAFD7836F2614619F9B7FE0A8ADDB3B5.d.965CCAA3AD2D08E32A581F1B498AD1A3.e.20")>
+2025-07-21 18:46:44.477 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="abcac261e75cdb836b621e667113268a", element="f.FAFD7836F2614619F9B7FE0A8ADDB3B5.d.965CCAA3AD2D08E32A581F1B498AD1A3.e.20")>
+2025-07-21 18:46:44.713 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:46:44.713 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:46:44.714 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), 123456)
+2025-07-21 18:46:44.714 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), 123456)
+2025-07-21 18:46:44.714 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:46:44.714 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:46:44.723 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="abcac261e75cdb836b621e667113268a", element="f.FAFD7836F2614619F9B7FE0A8ADDB3B5.d.965CCAA3AD2D08E32A581F1B498AD1A3.e.21")>
+2025-07-21 18:46:44.723 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="abcac261e75cdb836b621e667113268a", element="f.FAFD7836F2614619F9B7FE0A8ADDB3B5.d.965CCAA3AD2D08E32A581F1B498AD1A3.e.21")>
+2025-07-21 18:46:44.774 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:46:44.774 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:46:44.775 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:46:44.775 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:46:44.775 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:46:44.775 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:46:44.785 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="abcac261e75cdb836b621e667113268a", element="f.FAFD7836F2614619F9B7FE0A8ADDB3B5.d.965CCAA3AD2D08E32A581F1B498AD1A3.e.22")>
+2025-07-21 18:46:44.785 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="abcac261e75cdb836b621e667113268a", element="f.FAFD7836F2614619F9B7FE0A8ADDB3B5.d.965CCAA3AD2D08E32A581F1B498AD1A3.e.22")>
+2025-07-21 18:46:44.834 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:46:44.834 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:46:44.835 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:46:44.835 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:46:44.835 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:46:44.835 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:46:44.856 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="abcac261e75cdb836b621e667113268a", element="f.FAFD7836F2614619F9B7FE0A8ADDB3B5.d.965CCAA3AD2D08E32A581F1B498AD1A3.e.41")>
+2025-07-21 18:46:44.856 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="abcac261e75cdb836b621e667113268a", element="f.FAFD7836F2614619F9B7FE0A8ADDB3B5.d.965CCAA3AD2D08E32A581F1B498AD1A3.e.41")>
+2025-07-21 18:46:44.942 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:46:44.942 | SUCCESS  | src.util.logger:success:58 - 执行结果None
+2025-07-21 18:46:46.944 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:46:46.944 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:46:46.959 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="abcac261e75cdb836b621e667113268a", element="f.FAFD7836F2614619F9B7FE0A8ADDB3B5.d.965CCAA3AD2D08E32A581F1B498AD1A3.e.53")>
+2025-07-21 18:46:46.959 | SUCCESS  | src.util.logger:success:58 - 执行结果<selenium.webdriver.remote.webelement.WebElement (session="abcac261e75cdb836b621e667113268a", element="f.FAFD7836F2614619F9B7FE0A8ADDB3B5.d.965CCAA3AD2D08E32A581F1B498AD1A3.e.53")>
+2025-07-21 18:47:44.252 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-21 18:47:44.252 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-21 18:47:44.252 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-21 18:47:44.252 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-21 18:47:44.252 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-21 18:47:46.988 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:47:46.988 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:47:50.320 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:47:50.320 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:47:50.341 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:47:50.341 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:47:50.570 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), 123456)
+2025-07-21 18:47:50.570 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), 123456)
+2025-07-21 18:47:50.570 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:47:50.570 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:47:50.629 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:47:50.629 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:47:50.629 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:47:50.629 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:47:50.690 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:47:50.690 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:47:50.691 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:47:50.691 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:47:52.792 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:47:52.792 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:49:05.474 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-21 18:49:05.475 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-21 18:49:05.475 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-21 18:49:05.475 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-21 18:49:05.475 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-21 18:50:11.875 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:50:11.875 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:50:14.638 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:50:14.638 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:50:14.658 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:50:14.658 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:50:14.848 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), '123456')
+2025-07-21 18:50:14.848 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), '123456')
+2025-07-21 18:50:14.848 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:50:14.848 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:50:14.907 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:50:14.907 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:50:14.908 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:50:14.908 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:50:14.971 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:50:14.971 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:50:14.971 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:50:14.971 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:50:15.044 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:50:15.044 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:50:16.112 | INFO     | src.util.logger:info:49 - 执行函数:delete_all_cookies 执行参数:()
+2025-07-21 18:50:16.112 | INFO     | src.util.logger:info:49 - 执行函数:delete_all_cookies 执行参数:()
+2025-07-21 18:50:16.127 | INFO     | src.util.logger:info:49 - 执行函数:refresh 执行参数:()
+2025-07-21 18:50:16.127 | INFO     | src.util.logger:info:49 - 执行函数:refresh 执行参数:()
+2025-07-21 18:50:17.412 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:50:17.412 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:50:18.697 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:50:18.697 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:50:18.697 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:50:18.697 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:50:18.768 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), '123457')
+2025-07-21 18:50:18.768 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), '123457')
+2025-07-21 18:50:18.768 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:50:18.768 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:50:18.836 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:50:18.836 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:50:18.836 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:50:18.836 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:50:18.899 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:50:18.899 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:50:18.899 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:50:18.899 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:50:18.971 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:50:18.971 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:50:20.017 | INFO     | src.util.logger:info:49 - 执行函数:delete_all_cookies 执行参数:()
+2025-07-21 18:50:20.017 | INFO     | src.util.logger:info:49 - 执行函数:delete_all_cookies 执行参数:()
+2025-07-21 18:50:20.027 | INFO     | src.util.logger:info:49 - 执行函数:refresh 执行参数:()
+2025-07-21 18:50:20.027 | INFO     | src.util.logger:info:49 - 执行函数:refresh 执行参数:()
+2025-07-21 18:50:21.490 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:50:21.490 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:50:22.774 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:50:22.774 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:50:22.784 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:50:22.784 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:50:22.866 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), '123456')
+2025-07-21 18:50:22.866 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), '123456')
+2025-07-21 18:50:22.866 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:50:22.866 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:50:22.923 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B1')
+2025-07-21 18:50:22.923 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B1')
+2025-07-21 18:50:22.923 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:50:22.923 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:50:22.987 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:50:22.987 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:50:22.988 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:50:22.988 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:50:23.086 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:50:23.086 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:50:24.133 | INFO     | src.util.logger:info:49 - 执行函数:delete_all_cookies 执行参数:()
+2025-07-21 18:50:24.133 | INFO     | src.util.logger:info:49 - 执行函数:delete_all_cookies 执行参数:()
+2025-07-21 18:50:24.143 | INFO     | src.util.logger:info:49 - 执行函数:refresh 执行参数:()
+2025-07-21 18:50:24.143 | INFO     | src.util.logger:info:49 - 执行函数:refresh 执行参数:()
+2025-07-21 18:50:25.438 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:50:25.438 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:50:26.742 | INFO     | src.util.logger:info:49 - 执行函数:wait 执行参数:(10,)
+2025-07-21 18:50:26.742 | INFO     | src.util.logger:info:49 - 执行函数:wait 执行参数:(10,)
+2025-07-21 18:50:26.743 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:50:26.743 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:50:26.743 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:50:26.743 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:50:26.902 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), '123456')
+2025-07-21 18:50:26.902 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'pwd'), '123456')
+2025-07-21 18:50:26.902 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:50:26.902 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'pwd')}
+2025-07-21 18:50:26.960 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:50:26.960 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'verify'), 'A1B2')
+2025-07-21 18:50:26.960 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:50:26.960 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'verify')}
+2025-07-21 18:50:27.023 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:50:27.023 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//button[text()='登录']"),)
+2025-07-21 18:50:27.024 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:50:27.024 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//button[text()='登录']")}
+2025-07-21 18:50:29.098 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:50:29.098 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(('xpath', "//*[@class='prompt-msg']"),)
+2025-07-21 18:50:29.117 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//*[text()='商城首页']"),)
+2025-07-21 18:50:29.117 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('xpath', "//*[text()='商城首页']"),)
+2025-07-21 18:50:29.118 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//*[text()='商城首页']")}
+2025-07-21 18:50:29.118 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('xpath', "//*[text()='商城首页']")}
+2025-07-21 18:50:31.669 | ERROR    | src.util.logger:error:52 - 执行失败clickTraceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 88, in click
+    self.find_element(part=part).click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 119, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 572, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found
+  (Session info: chrome=138.0.7204.158); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x00000001034af318 chromedriver + 6148888
+1   chromedriver                        0x00000001034a68ca chromedriver + 6113482
+2   chromedriver                        0x0000000102f37e10 chromedriver + 417296
+3   chromedriver                        0x0000000102f4b69b chromedriver + 497307
+4   chromedriver                        0x0000000102f4a452 chromedriver + 492626
+5   chromedriver                        0x0000000102f3f589 chromedriver + 447881
+6   chromedriver                        0x0000000102f3d6b8 chromedriver + 439992
+7   chromedriver                        0x0000000102f41593 chromedriver + 456083
+8   chromedriver                        0x0000000102f41643 chromedriver + 456259
+9   chromedriver                        0x0000000102f8b99e chromedriver + 760222
+10  chromedriver                        0x0000000102f7de3d chromedriver + 704061
+11  chromedriver                        0x0000000102fafcc2 chromedriver + 908482
+12  chromedriver                        0x0000000102f7d848 chromedriver + 702536
+13  chromedriver                        0x0000000102fafe7e chromedriver + 908926
+14  chromedriver                        0x0000000102fd718c chromedriver + 1069452
+15  chromedriver                        0x0000000102fafa93 chromedriver + 907923
+16  chromedriver                        0x0000000102f7c0f7 chromedriver + 696567
+17  chromedriver                        0x0000000102f7cd61 chromedriver + 699745
+18  chromedriver                        0x000000010346c260 chromedriver + 5874272
+19  chromedriver                        0x0000000103470299 chromedriver + 5890713
+20  chromedriver                        0x0000000103448032 chromedriver + 5726258
+21  chromedriver                        0x0000000103470c0f chromedriver + 5893135
+22  chromedriver                        0x0000000103436d24 chromedriver + 5655844
+23  chromedriver                        0x0000000103493df8 chromedriver + 6036984
+24  chromedriver                        0x0000000103493fc0 chromedriver + 6037440
+25  chromedriver                        0x00000001034a6461 chromedriver + 6112353
+26  libsystem_pthread.dylib             0x00007ff813fbcdf1 _pthread_start + 99
+27  libsystem_pthread.dylib             0x00007ff813fb8857 thread_start + 15
+
+
+2025-07-21 18:50:31.669 | ERROR    | src.util.logger:error:52 - 执行失败clickTraceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 88, in click
+    self.find_element(part=part).click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 119, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 572, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found
+  (Session info: chrome=138.0.7204.158); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x00000001034af318 chromedriver + 6148888
+1   chromedriver                        0x00000001034a68ca chromedriver + 6113482
+2   chromedriver                        0x0000000102f37e10 chromedriver + 417296
+3   chromedriver                        0x0000000102f4b69b chromedriver + 497307
+4   chromedriver                        0x0000000102f4a452 chromedriver + 492626
+5   chromedriver                        0x0000000102f3f589 chromedriver + 447881
+6   chromedriver                        0x0000000102f3d6b8 chromedriver + 439992
+7   chromedriver                        0x0000000102f41593 chromedriver + 456083
+8   chromedriver                        0x0000000102f41643 chromedriver + 456259
+9   chromedriver                        0x0000000102f8b99e chromedriver + 760222
+10  chromedriver                        0x0000000102f7de3d chromedriver + 704061
+11  chromedriver                        0x0000000102fafcc2 chromedriver + 908482
+12  chromedriver                        0x0000000102f7d848 chromedriver + 702536
+13  chromedriver                        0x0000000102fafe7e chromedriver + 908926
+14  chromedriver                        0x0000000102fd718c chromedriver + 1069452
+15  chromedriver                        0x0000000102fafa93 chromedriver + 907923
+16  chromedriver                        0x0000000102f7c0f7 chromedriver + 696567
+17  chromedriver                        0x0000000102f7cd61 chromedriver + 699745
+18  chromedriver                        0x000000010346c260 chromedriver + 5874272
+19  chromedriver                        0x0000000103470299 chromedriver + 5890713
+20  chromedriver                        0x0000000103448032 chromedriver + 5726258
+21  chromedriver                        0x0000000103470c0f chromedriver + 5893135
+22  chromedriver                        0x0000000103436d24 chromedriver + 5655844
+23  chromedriver                        0x0000000103493df8 chromedriver + 6036984
+24  chromedriver                        0x0000000103493fc0 chromedriver + 6037440
+25  chromedriver                        0x00000001034a6461 chromedriver + 6112353
+26  libsystem_pthread.dylib             0x00007ff813fbcdf1 _pthread_start + 99
+27  libsystem_pthread.dylib             0x00007ff813fb8857 thread_start + 15
+
+
+2025-07-21 18:50:31.889 | INFO     | src.util.logger:info:49 - 执行函数:delete_all_cookies 执行参数:()
+2025-07-21 18:50:31.889 | INFO     | src.util.logger:info:49 - 执行函数:delete_all_cookies 执行参数:()
+2025-07-21 18:50:31.903 | INFO     | src.util.logger:info:49 - 执行函数:refresh 执行参数:()
+2025-07-21 18:50:31.903 | INFO     | src.util.logger:info:49 - 执行函数:refresh 执行参数:()
+2025-07-21 18:50:33.544 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:50:33.544 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:50:34.556 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:50:34.556 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('name', 'accounts'), 'tangying')
+2025-07-21 18:50:34.556 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:50:34.556 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('name', 'accounts')}
+2025-07-21 18:50:42.371 | ERROR    | src.util.logger:error:52 - 执行失败find_elementTraceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 76, in find_element
+    return WebDriverWait(self.__driver, self.__timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda x: x.find_element(*part)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 137, in until
+    value = method(self._driver)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 77, in <lambda>
+    lambda x: x.find_element(*part)
+              ~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+2025-07-21 18:50:42.371 | ERROR    | src.util.logger:error:52 - 执行失败find_elementTraceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 76, in find_element
+    return WebDriverWait(self.__driver, self.__timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda x: x.find_element(*part)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 137, in until
+    value = method(self._driver)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 77, in <lambda>
+    lambda x: x.find_element(*part)
+              ~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+2025-07-21 18:50:42.373 | ERROR    | src.util.logger:error:52 - 执行失败send_keysTraceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 91, in send_keys
+    self.find_element(part=part).send_keys(content)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 81, in log_action
+    return retevl
+           ^^^^^^
+UnboundLocalError: cannot access local variable 'retevl' where it is not associated with a value
+
+2025-07-21 18:50:42.373 | ERROR    | src.util.logger:error:52 - 执行失败send_keysTraceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 91, in send_keys
+    self.find_element(part=part).send_keys(content)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 81, in log_action
+    return retevl
+           ^^^^^^
+UnboundLocalError: cannot access local variable 'retevl' where it is not associated with a value
+
+2025-07-21 18:50:42.383 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:50:42.383 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('http://www.liuyanzu.tech/shopxo/?s=user/logininfo.html',)
+2025-07-21 18:50:42.401 | ERROR    | src.util.logger:error:52 - 执行失败getTraceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x109749040>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 70, in get
+    self.__driver.get(url)
+    ~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=60888): Max retries exceeded with url: /session/c45c11474e253f16221495e0abdf70ee/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109749040>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+2025-07-21 18:50:42.401 | ERROR    | src.util.logger:error:52 - 执行失败getTraceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x109749040>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 70, in get
+    self.__driver.get(url)
+    ~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=60888): Max retries exceeded with url: /session/c45c11474e253f16221495e0abdf70ee/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109749040>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+2025-07-21 18:50:42.418 | INFO     | src.util.logger:info:49 - 执行函数:delete_all_cookies 执行参数:()
+2025-07-21 18:50:42.418 | INFO     | src.util.logger:info:49 - 执行函数:delete_all_cookies 执行参数:()
+2025-07-21 18:50:42.434 | ERROR    | src.util.logger:error:52 - 执行失败delete_all_cookiesTraceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1098ec8d0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 154, in delete_all_cookies
+    self.__driver.delete_all_cookies()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 755, in delete_all_cookies
+    self.execute(Command.DELETE_ALL_COOKIES)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<3 lines>...
+        **urlopen_kw,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=60888): Max retries exceeded with url: /session/c45c11474e253f16221495e0abdf70ee/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1098ec8d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+2025-07-21 18:50:42.434 | ERROR    | src.util.logger:error:52 - 执行失败delete_all_cookiesTraceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1098ec8d0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 154, in delete_all_cookies
+    self.__driver.delete_all_cookies()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 755, in delete_all_cookies
+    self.execute(Command.DELETE_ALL_COOKIES)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<3 lines>...
+        **urlopen_kw,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=60888): Max retries exceeded with url: /session/c45c11474e253f16221495e0abdf70ee/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1098ec8d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+

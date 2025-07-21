@@ -25,8 +25,8 @@ class LoginPage:
         self.pyselenium.send_keys(self.password,pas)
         self.pyselenium.send_keys(self.verify,verfiycode)
         self.pyselenium.click(self.login_btn)
+        time.sleep(2)
 
     def whether(self,real):
         result=self.pyselenium.find_element(self.prompt).text
         assert result==real
-        time.sleep(5)

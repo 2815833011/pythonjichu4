@@ -2,3 +2,4 @@ pytest
 selenium
 pyyaml
 loguru
+yagmail

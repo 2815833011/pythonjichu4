@@ -77,8 +77,6 @@ def log(func):
                   retevl=func(*args,**kwargs)
             except:
                   dlog.error(f"执行失败{func.__name__}{traceback.format_exc()}")
-            else:
-                  dlog.success(f"执行结果{retevl}")
             
             return retevl
       return log_action

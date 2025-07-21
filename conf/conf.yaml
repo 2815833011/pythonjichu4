@@ -4,4 +4,15 @@ chromedriver:
 testdata: 
   testlogindata: data/testlogindata.yaml
 
+mail: 
+    sender: 
+       host: "smtp.qq.com"
+       user: "2815833011@qq.com"
+       password: "pgwsnrxxjwfrdhdh"
+    to: 
+       2815833011@qq.com: "troy"
+       
+    cc: 
+      - "2815833011@qq.com"
 
+    active: True
