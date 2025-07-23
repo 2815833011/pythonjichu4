@@ -140,6 +140,15 @@ class Pyselenium:
     @log   
     def save_screenshot(self,path):
         self.__driver.save_screenshot(path)
+
+
+    @log
+    def get_screenshot_as_png(self):
+        '''
+             获取png屏幕截图
+        '''
+        return self.__driver.get_screenshot_as_png()
+
     @log
     def max_window(self):
         self.__driver.maximize_window()

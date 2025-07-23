@@ -21,3 +21,6 @@ class Conf:
     def get_mailconf(self):
         mailconf=self.yaml.fileload(self.conf)["mail"]
         return mailconf
+    
+    def get_screenshot_conf(self):
+        return self.yaml.fileload(self.conf)["conftest"]["screenshot"]

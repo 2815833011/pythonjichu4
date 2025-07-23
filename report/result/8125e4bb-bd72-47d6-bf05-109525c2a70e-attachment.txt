@@ -1,0 +1,51 @@
+2025-07-22 18:12:39.414 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-22 18:12:41.057 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'wd'), 'python')
+2025-07-22 18:12:41.139 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'wd')}
+2025-07-22 18:12:51.674 | ERROR    | src.util.logger:error:52 - 执行失败find_elementTraceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 76, in find_element
+    return WebDriverWait(self.__driver, self.__timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda x: x.find_element(*part)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001045ee318 chromedriver + 6148888
+1   chromedriver                        0x00000001045e58ca chromedriver + 6113482
+2   chromedriver                        0x0000000104076e10 chromedriver + 417296
+3   chromedriver                        0x00000001040c8c94 chromedriver + 752788
+4   chromedriver                        0x00000001040c8eb1 chromedriver + 753329
+5   chromedriver                        0x0000000104118dd4 chromedriver + 1080788
+6   chromedriver                        0x00000001040eeced chromedriver + 908525
+7   chromedriver                        0x000000010411618c chromedriver + 1069452
+8   chromedriver                        0x00000001040eea93 chromedriver + 907923
+9   chromedriver                        0x00000001040bb0f7 chromedriver + 696567
+10  chromedriver                        0x00000001040bbd61 chromedriver + 699745
+11  chromedriver                        0x00000001045ab260 chromedriver + 5874272
+12  chromedriver                        0x00000001045af299 chromedriver + 5890713
+13  chromedriver                        0x0000000104587032 chromedriver + 5726258
+14  chromedriver                        0x00000001045afc0f chromedriver + 5893135
+15  chromedriver                        0x0000000104575d24 chromedriver + 5655844
+16  chromedriver                        0x00000001045d2df8 chromedriver + 6036984
+17  chromedriver                        0x00000001045d2fc0 chromedriver + 6037440
+18  chromedriver                        0x00000001045e5461 chromedriver + 6112353
+19  libsystem_pthread.dylib             0x00007ff813fbcdf1 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff813fb8857 thread_start + 15
+
+
+2025-07-22 18:12:51.676 | ERROR    | src.util.logger:error:52 - 执行失败send_keysTraceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 91, in send_keys
+    self.find_element(part=part).send_keys(content)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 81, in log_action
+    return retevl
+           ^^^^^^
+UnboundLocalError: cannot access local variable 'retevl' where it is not associated with a value
+

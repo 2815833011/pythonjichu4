@@ -1,0 +1,6 @@
+2025-07-22 18:32:22.802 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-22 18:32:25.561 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-22 18:32:25.586 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-22 18:32:25.887 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-22 18:32:25.887 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-22 18:32:25.975 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()

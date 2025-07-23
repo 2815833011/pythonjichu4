@@ -1,3 +1,8 @@
+conftest:
+  screenshot: 
+    pass: false
+    faild: True 
+
 chromedriver: 
   chrome: driver/chromedriver
 
@@ -15,4 +20,4 @@ mail:
     cc: 
       - "2815833011@qq.com"
 
-    active: True
+    active: false

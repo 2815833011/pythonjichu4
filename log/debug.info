@@ -3869,3 +3869,285 @@ Traceback (most recent call last):
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=60888): Max retries exceeded with url: /session/c45c11474e253f16221495e0abdf70ee/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1098ec8d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
 
+2025-07-22 18:11:05.921 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-22 18:11:05.922 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-22 18:11:05.922 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-22 18:11:05.922 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-22 18:11:05.922 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-22 18:11:56.952 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-22 18:11:56.953 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-22 18:11:56.953 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-22 18:11:56.953 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-22 18:11:56.953 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-22 18:12:36.094 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-22 18:12:36.094 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-22 18:12:36.094 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-22 18:12:36.094 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-22 18:12:36.094 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-22 18:12:39.414 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-22 18:12:39.414 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-22 18:12:41.057 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'wd'), 'python')
+2025-07-22 18:12:41.057 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'wd'), 'python')
+2025-07-22 18:12:41.139 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'wd')}
+2025-07-22 18:12:41.139 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'wd')}
+2025-07-22 18:12:51.674 | ERROR    | src.util.logger:error:52 - 执行失败find_elementTraceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 76, in find_element
+    return WebDriverWait(self.__driver, self.__timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda x: x.find_element(*part)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001045ee318 chromedriver + 6148888
+1   chromedriver                        0x00000001045e58ca chromedriver + 6113482
+2   chromedriver                        0x0000000104076e10 chromedriver + 417296
+3   chromedriver                        0x00000001040c8c94 chromedriver + 752788
+4   chromedriver                        0x00000001040c8eb1 chromedriver + 753329
+5   chromedriver                        0x0000000104118dd4 chromedriver + 1080788
+6   chromedriver                        0x00000001040eeced chromedriver + 908525
+7   chromedriver                        0x000000010411618c chromedriver + 1069452
+8   chromedriver                        0x00000001040eea93 chromedriver + 907923
+9   chromedriver                        0x00000001040bb0f7 chromedriver + 696567
+10  chromedriver                        0x00000001040bbd61 chromedriver + 699745
+11  chromedriver                        0x00000001045ab260 chromedriver + 5874272
+12  chromedriver                        0x00000001045af299 chromedriver + 5890713
+13  chromedriver                        0x0000000104587032 chromedriver + 5726258
+14  chromedriver                        0x00000001045afc0f chromedriver + 5893135
+15  chromedriver                        0x0000000104575d24 chromedriver + 5655844
+16  chromedriver                        0x00000001045d2df8 chromedriver + 6036984
+17  chromedriver                        0x00000001045d2fc0 chromedriver + 6037440
+18  chromedriver                        0x00000001045e5461 chromedriver + 6112353
+19  libsystem_pthread.dylib             0x00007ff813fbcdf1 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff813fb8857 thread_start + 15
+
+
+2025-07-22 18:12:51.674 | ERROR    | src.util.logger:error:52 - 执行失败find_elementTraceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 76, in find_element
+    return WebDriverWait(self.__driver, self.__timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda x: x.find_element(*part)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001045ee318 chromedriver + 6148888
+1   chromedriver                        0x00000001045e58ca chromedriver + 6113482
+2   chromedriver                        0x0000000104076e10 chromedriver + 417296
+3   chromedriver                        0x00000001040c8c94 chromedriver + 752788
+4   chromedriver                        0x00000001040c8eb1 chromedriver + 753329
+5   chromedriver                        0x0000000104118dd4 chromedriver + 1080788
+6   chromedriver                        0x00000001040eeced chromedriver + 908525
+7   chromedriver                        0x000000010411618c chromedriver + 1069452
+8   chromedriver                        0x00000001040eea93 chromedriver + 907923
+9   chromedriver                        0x00000001040bb0f7 chromedriver + 696567
+10  chromedriver                        0x00000001040bbd61 chromedriver + 699745
+11  chromedriver                        0x00000001045ab260 chromedriver + 5874272
+12  chromedriver                        0x00000001045af299 chromedriver + 5890713
+13  chromedriver                        0x0000000104587032 chromedriver + 5726258
+14  chromedriver                        0x00000001045afc0f chromedriver + 5893135
+15  chromedriver                        0x0000000104575d24 chromedriver + 5655844
+16  chromedriver                        0x00000001045d2df8 chromedriver + 6036984
+17  chromedriver                        0x00000001045d2fc0 chromedriver + 6037440
+18  chromedriver                        0x00000001045e5461 chromedriver + 6112353
+19  libsystem_pthread.dylib             0x00007ff813fbcdf1 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff813fb8857 thread_start + 15
+
+
+2025-07-22 18:12:51.676 | ERROR    | src.util.logger:error:52 - 执行失败send_keysTraceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 91, in send_keys
+    self.find_element(part=part).send_keys(content)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 81, in log_action
+    return retevl
+           ^^^^^^
+UnboundLocalError: cannot access local variable 'retevl' where it is not associated with a value
+
+2025-07-22 18:12:51.676 | ERROR    | src.util.logger:error:52 - 执行失败send_keysTraceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 77, in log_action
+    retevl=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/pyselenium.py", line 91, in send_keys
+    self.find_element(part=part).send_keys(content)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/admin/Documents/pythonproject/pythonjichu4/src/util/logger.py", line 81, in log_action
+    return retevl
+           ^^^^^^
+UnboundLocalError: cannot access local variable 'retevl' where it is not associated with a value
+
+2025-07-22 18:12:56.487 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-22 18:12:56.488 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-22 18:12:56.488 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-22 18:12:56.488 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-22 18:12:56.488 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-22 18:12:58.779 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-22 18:12:58.779 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-22 18:13:00.901 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-22 18:13:00.901 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-22 18:13:00.949 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-22 18:13:00.949 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-22 18:13:01.349 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-22 18:13:01.349 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-22 18:13:01.352 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-22 18:13:01.352 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-22 18:26:03.743 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-22 18:26:03.744 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-22 18:26:03.744 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-22 18:26:03.744 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-22 18:26:03.745 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-22 18:26:06.211 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-22 18:26:06.211 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-22 18:26:08.258 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-22 18:26:08.258 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-22 18:26:08.301 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-22 18:26:08.301 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-22 18:26:08.669 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-22 18:26:08.669 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-22 18:26:08.670 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-22 18:26:08.670 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-22 18:26:08.836 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-22 18:26:08.836 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-22 18:32:20.654 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-22 18:32:20.655 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-22 18:32:20.655 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-22 18:32:20.655 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-22 18:32:20.655 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-22 18:32:22.802 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-22 18:32:22.802 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-22 18:32:25.561 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-22 18:32:25.561 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-22 18:32:25.586 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-22 18:32:25.586 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-22 18:32:25.887 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-22 18:32:25.887 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-22 18:32:25.887 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-22 18:32:25.887 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-22 18:32:25.975 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-22 18:32:25.975 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-22 18:35:23.852 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-22 18:35:23.853 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-22 18:35:23.853 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-22 18:35:23.853 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-22 18:35:23.853 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-22 18:35:25.902 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-22 18:35:25.902 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-22 18:35:28.640 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-22 18:35:28.640 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-22 18:35:28.662 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-22 18:35:28.662 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-22 18:35:28.982 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-22 18:35:28.982 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-22 18:35:28.982 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-22 18:35:28.982 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-22 18:35:29.069 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-22 18:35:29.069 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:27:51.763 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-23 14:27:51.766 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-23 14:27:51.766 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-23 14:27:51.766 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-23 14:27:51.766 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-23 14:28:51.563 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-23 14:28:51.563 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-23 14:28:51.563 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-23 14:28:51.563 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-23 14:28:51.564 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-23 14:29:55.795 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-23 14:29:55.795 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-23 14:29:55.795 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-23 14:29:55.795 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-23 14:29:55.796 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-23 14:29:59.027 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-23 14:29:59.027 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-23 14:30:02.160 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-23 14:30:02.160 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-23 14:30:02.179 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-23 14:30:02.179 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-23 14:30:02.395 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-23 14:30:02.395 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-23 14:30:02.398 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-23 14:30:02.398 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-23 14:30:02.640 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:30:02.640 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:31:01.249 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-23 14:31:01.249 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-23 14:31:01.250 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-23 14:31:01.250 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-23 14:31:01.250 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-23 14:31:03.004 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-23 14:31:03.004 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-23 14:31:05.443 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-23 14:31:05.443 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-23 14:31:05.466 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-23 14:31:05.466 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-23 14:31:05.819 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-23 14:31:05.819 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-23 14:31:05.819 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-23 14:31:05.819 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-23 14:31:05.979 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:31:05.979 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:31:13.327 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-23 14:31:13.328 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-23 14:31:13.328 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-23 14:31:13.328 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-23 14:31:13.328 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-23 14:31:15.085 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-23 14:31:15.085 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-23 14:31:17.503 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-23 14:31:17.503 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-23 14:31:17.504 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-23 14:31:17.504 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-23 14:31:17.721 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-23 14:31:17.721 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-23 14:31:17.722 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-23 14:31:17.722 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-23 14:31:17.824 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:31:17.824 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:39:27.255 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-23 14:39:27.255 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-23 14:39:27.256 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-23 14:39:27.256 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-23 14:39:27.256 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-23 14:39:29.363 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-23 14:39:29.363 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-23 14:39:31.935 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-23 14:39:31.935 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-23 14:39:31.957 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-23 14:39:31.957 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-23 14:39:32.255 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-23 14:39:32.255 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-23 14:39:32.255 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-23 14:39:32.255 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-23 14:39:32.354 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:39:32.354 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:39:32.613 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:39:32.613 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:49:12.819 | INFO     | src.util.logger:<module>:24 - 输出信息
+2025-07-23 14:49:12.820 | ERROR    | src.util.logger:<module>:25 - 报错
+2025-07-23 14:49:12.820 | WARNING  | src.util.logger:<module>:26 - 警告
+2025-07-23 14:49:12.820 | SUCCESS  | src.util.logger:<module>:27 - 成功
+2025-07-23 14:49:12.820 | CRITICAL | src.util.logger:<module>:28 - 严重报错
+2025-07-23 14:49:14.697 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-23 14:49:14.697 | INFO     | src.util.logger:info:49 - 执行函数:get 执行参数:('https://www.baidu.com',)
+2025-07-23 14:49:15.605 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-23 14:49:15.605 | INFO     | src.util.logger:info:49 - 执行函数:send_keys 执行参数:(('id', 'kw'), 'python')
+2025-07-23 14:49:15.628 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-23 14:49:15.628 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'kw')}
+2025-07-23 14:49:15.901 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-23 14:49:15.901 | INFO     | src.util.logger:info:49 - 执行函数:click 执行参数:(('id', 'su'),)
+2025-07-23 14:49:15.903 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-23 14:49:15.903 | INFO     | src.util.logger:info:49 - 执行函数:find_element 执行参数:(){'part': ('id', 'su')}
+2025-07-23 14:49:16.075 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:49:16.075 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:49:16.261 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
+2025-07-23 14:49:16.261 | INFO     | src.util.logger:info:49 - 执行函数:get_screenshot_as_png 执行参数:()
